@@ -1,0 +1,82 @@
+[33mcommit 716b46ddf2d59f596c147fafc481d520ecf7dc75[m[33m ([m[1;36mHEAD -> [m[1;32mlf_dev_prj1[m[33m, [m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m)[m
+Merge: 3bf78eb 6e91aae
+Author: lifeoutro <95233136+lifeoutro@users.noreply.github.com>
+Date:   Sat Jan 1 20:31:51 2022 +0300
+
+    Merge pull request #1 from lifeoutro/lf_dev_branch
+    
+    dev branch added, new file file3.py
+
+[33mcommit 6e91aaeed32274e8e66bf8c2e54f6817b0d02c77[m
+Author: lifeoutro <5lf01rucom@inbox.ru>
+Date:   Sat Jan 1 17:26:38 2022 +0000
+
+    dev branch added, new file file3.py
+
+[33mcommit 3bf78ebb7f3b28050500b6f76cbe3f4c11427949[m[33m ([m[1;32mcheckout[m[33m)[m
+Merge: 0981fc6 9b23bed
+Author: lifeoutro <5lf01rucom@inbox.ru>
+Date:   Sat Jan 1 17:21:47 2022 +0000
+
+    Merge branch 'master' of github.com:lifeoutro/project1
+
+[33mcommit 0981fc6689438ae5ef4d36461d2e85ed8bf82dd5[m
+Author: lifeoutro <5lf01rucom@inbox.ru>
+Date:   Sat Jan 1 17:19:25 2022 +0000
+
+    all files as were
+
+[33mcommit 9b23bed275bc4df4d98ee09224c13711c7354a33[m[33m ([m[1;32m8b538b53d3cabd8aca517bec4633500e1a32d275[m[33m)[m
+Author: lifeoutro <5lf01rucom@inbox.ru>
+Date:   Sat Jan 1 16:48:15 2022 +0000
+
+    added commend file 1
+
+[33mcommit 8b538b53d3cabd8aca517bec4633500e1a32d275[m
+Merge: 1d48ea3 ffdfc81
+Author: lifeoutro <5lf01rucom@inbox.ru>
+Date:   Sat Jan 1 15:52:21 2022 +0000
+
+    Merge branch 'master' of github.com:lifeoutro/project1
+
+[33mcommit 1d48ea30a0ab64d8058dd97d44459debee2b5a03[m
+Author: lifeoutro <5lf01rucom@inbox.ru>
+Date:   Sat Jan 1 15:52:14 2022 +0000
+
+    file1 updated json file has been added
+
+[33mcommit ffdfc81273e7f14f2e1c3f5e1f950b39bf74c6e7[m
+Author: lifeoutro <5lf01rucom@inbox.ru>
+Date:   Sat Jan 1 15:50:50 2022 +0000
+
+    file2.py has been updated
+
+[33mcommit 1f29ca9279c3856aca23db4f9c36b15207870422[m
+Author: root <administrator@ans-mgr.lf01.ru.com>
+Date:   Sat Jan 1 15:48:38 2022 +0000
+
+    new file2.py added
+
+[33mcommit d993921465843a6763168468fc369c908ba24c40[m
+Author: lifeoutro <5lf01rucom@inbox.ru>
+Date:   Sat Jan 1 14:54:46 2022 +0000
+
+    hey dude
+
+[33mcommit 30c6e79641eeb098960f92da9dd740c8b1202fc5[m
+Author: lifeoutro <5lf01rucom@inbox.ru>
+Date:   Sat Jan 1 14:28:45 2022 +0000
+
+    "update hello world"
+
+[33mcommit 9502bf7a35cc530dc6c8a8ea8a147acd1dd27a7b[m
+Author: lifeoutro <5lf01rucom@inbox.ru>
+Date:   Sat Jan 1 14:25:17 2022 +0000
+
+    modified file1
+
+[33mcommit 9dcfa9ce67a1833c3cc1e8e3e0dcad098cfc3521[m
+Author: lifeoutro <5lf01rucom@inbox.ru>
+Date:   Sat Jan 1 14:23:13 2022 +0000
+
+    "1st file"

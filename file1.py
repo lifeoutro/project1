@@ -1,7 +1,7 @@
-import os
+import os, sys
 print(os.getlogin())
-print ('hello world')
-print('hey dude')
+print (sys.builtin_module_names)
+print(list(os.uname()))
 k = False
 if k:
     print('k is true')
