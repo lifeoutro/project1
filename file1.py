@@ -1,9 +1,7 @@
-import os, sys
+import os, sys, requests
 print(os.getlogin())
-print (sys.builtin_module_names)
+print(sys.builtin_module_names)
 print(list(os.uname()))
 k = False
-if k:
-    print('k is true')
-else:
-    print('k is false')
+r = requests.get('https://yandex.ru')
+print(r.status_code)
