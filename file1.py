@@ -1,9 +1,11 @@
-import os, sys, requests
-try:
-    print(os.environ)
-    print(sys.builtin_module_names)
-except:
-    pass
-k = False
-r = requests.get('https://yandex.ru')
-print(r.status_code)
+import requests
+from bs4 import BeautifulSoup
+newslist = []
+page = requests.get('https://rambler.ru')
+print(page.status_code)
+if page.status_code == 200:
+    soup = BeautifulSoup(page.text, "html.parser")
+    allnews = soup.findAll('a',class_ = '_2j90')
+    for d in allnews:
+        newslist.append(d.text)
+    print(newslist)
