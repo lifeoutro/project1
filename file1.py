@@ -1,6 +1,6 @@
 import os, sys, requests
 try:
-    print(os.getlogin())
+    print(os.environ)
     print(sys.builtin_module_names)
 except:
     pass
