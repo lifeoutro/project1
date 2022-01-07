@@ -15,5 +15,5 @@ def findnews(inwebaddress,newstag, newsclass):
     else:
         return [-1]
 
-print(findnews('https://mail.ru','a','news-visited svelte-1pm37ss'))
+print(findnews('https://msn.com','a','title'))
 print(findnews('https://yandex.ru','span','news__item-content'))
