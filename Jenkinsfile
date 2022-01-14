@@ -15,8 +15,8 @@ pipeline{
         }
         stage('deploy'){
             steps{
-                echo "projectname is $(PROJECT_NAME)"
-                echo "owner is $(OWNER)"
+                echo "projectname is $PROJECT_NAME"
+                echo "owner is $OWNER"
                 sleep 3
             }
         stage('End'){
