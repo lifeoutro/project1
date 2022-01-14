@@ -19,6 +19,9 @@ pipeline{
                 echo "owner is $(OWNER)"
                 sleep 3
             }
+        stage('End'){
+            echo "complete"
+        }
 
         }
     }
