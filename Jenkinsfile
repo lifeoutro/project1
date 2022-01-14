@@ -19,11 +19,12 @@ pipeline{
                 echo "owner is $OWNER"
                 sleep 3
             }
-        stage('End'){
-            echo "complete"
-            echo "complete"
         }
-
+        stage('End'){
+            steps{
+            echo "complete"
+            echo "complete"
+            }
         }
     }
 }
