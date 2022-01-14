@@ -1,5 +1,5 @@
 pipeline{
-    agent any
+    agent { dockerfile true}
     environment{
         PROJECT_NAME = 'my project'
         OWNER = 'VS'
@@ -7,10 +7,8 @@ pipeline{
     stages{
         stage('build'){
             steps{
-                echo "line 1"
-                echo "line 2"
-                echo "line 3"
-                sleep 5
+                sh "ls -la /opt/project2"
+                sh "python --version"
             }
         }
         stage('deploy'){
@@ -22,7 +20,6 @@ pipeline{
         }
         stage('End'){
             steps{
-            echo "complete"
             echo "complete"
             }
         }
