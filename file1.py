@@ -5,7 +5,7 @@ def findnews(inwebaddress,newstag, newsclass):
     useragent = 'Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko'
     headers_ = {'User-Agent':useragent}
     page = requests.get(inwebaddress, headers=headers_)
-    print(f'connect to resource {inwebaddress} status {page.status_code}')
+    print(f'-----> connect to resource {inwebaddress} status {page.status_code}')
     if page.status_code == 200:
         soup = BeautifulSoup(page.text, "html.parser")
         allnews = soup.findAll(newstag,class_ = newsclass)
