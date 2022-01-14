@@ -1,11 +1,12 @@
 pipeline{
-    agent { dockerfile true}
+    agent none
     environment{
         PROJECT_NAME = 'my project'
         OWNER = 'VS'
     }
     stages{
         stage('build'){
+            agent { dockerfile true}
             steps{
                 sh "ls -la /opt/project2"
                 sh "python --version"
