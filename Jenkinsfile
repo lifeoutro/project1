@@ -6,7 +6,7 @@ pipeline{
     }
     stages{
         stage('build'){
-            agent { dockerfile {"Dockerfile"}}}
+            agent { dockerfile {"Dockerfile"}}
             steps{
                 sh "ls -la /opt/project2"
                 sh "python --version"
